@@ -1,0 +1,143 @@
+/* version mobile first */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+:root{
+    --blue:#3180F5;
+    --cinza:#5B5858;
+    --backgound-header:#FFEFE8;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container{
+    background-color:var(--backgound-header);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+
+}
+header{
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
+.nav-bar{
+    padding-top: 20px;
+}
+
+
+.menu-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo p{
+    
+    font-weight:bold;
+    font-size: 1.2rem;
+    color: var(--blue)
+}
+
+#icon-btn{
+    background-color: var(--backgound-header);
+    border: none;
+    cursor: pointer;
+}
+
+
+.hidden{
+    display: none;
+}
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-list ul li{
+    list-style-type: none;
+    margin: 0px 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.nav-list ul li a{
+    text-decoration: none;
+    color: var(--cinza);
+    
+    font-size: 1.2rem;
+}
+
+.nav-list ul li a:hover{
+    
+}
+
+.btn{
+    border-radius: 5px;
+    background-color: var(--blue);
+    width: 215px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 4px;
+    gap: 5px;
+    cursor: pointer;
+    
+   
+}
+
+.btn span{
+   
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+}
+
+.img-analytics{
+    margin-top: 30px;
+}
+
+
+.infos{
+    width: 80%;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infos h1{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 7px;
+}
+.infos p{
+    font-size: 1.3rem;
+    color: var(--cinza);
+    line-height: 30px;
+    margin-bottom: 27px;
+}
+
+.infos .learn{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 13px;
+    margin-bottom: 47px;
+    cursor: pointer;
+}
+
+.infos .img-group{
+    align-self: flex-start;
+}
+
