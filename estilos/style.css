@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 :root{
     --blue:#3180F5;
-    --cinza:#5B5858;
+    --gray:#5B5858;
     --backgound-header:#FFEFE8;
 
 }
@@ -73,7 +73,7 @@ header{
 
 .nav-list ul li a{
     text-decoration: none;
-    color: var(--cinza);
+    color: var(--gray);
     
     font-size: 1.2rem;
 }
