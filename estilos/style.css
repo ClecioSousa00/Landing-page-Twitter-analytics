@@ -8,7 +8,7 @@
     --gray:#5B5858;
     --backgound-header:#FFEFE8;
     --background-section: #D7F5F5;
-
+    --border-plan: #DECB1E;
 
 }
 *{
@@ -250,3 +250,81 @@ header{
 
 /* --------------------------------------- */
 /* section plan twitter */
+
+.plan{
+    padding: 30px;
+    
+}
+
+.title-plan{
+    margin-bottom: 50px;
+}
+.title-plan h2{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.title-plan p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--gray);
+    text-align: center;
+    
+}
+
+.plan-twitter{
+    background-color: var(--backgound-header);
+    border: 1px solid var(--border-plan);
+    border-radius: 5px;
+    padding: 27px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-twitter .monthly{
+    display: flex;
+    flex-direction: column;
+    
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+.monthly span{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray);
+}
+
+.monthly p{
+    font-size: 20px;
+    color: var(--gray);
+}
+.monthly p strong{
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+}
+
+
+.plan-twitter .plan-box{
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    
+}
+
+.plan-box .plan-text{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin: 30px 0px;
+
+}
+
+.plan-text p{
+    font-size: 20px;
+    color: var(--gray);
+}
