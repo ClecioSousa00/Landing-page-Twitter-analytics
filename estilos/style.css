@@ -1,10 +1,14 @@
 /* version mobile first */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap');
+
 :root{
     --blue:#3180F5;
     --gray:#5B5858;
     --backgound-header:#FFEFE8;
+    --background-section: #D7F5F5;
+
 
 }
 *{
@@ -14,7 +18,8 @@
     font-family: 'Inter', sans-serif;
 }
 
-
+/* --------------------------------------- */
+/* section header */
 .container{
     background-color:var(--backgound-header);
     display: flex;
@@ -42,7 +47,7 @@ header{
 }
 .logo p{
     
-    font-weight:bold;
+    font-weight:800;
     font-size: 1.2rem;
     color: var(--blue)
 }
@@ -74,7 +79,7 @@ header{
 .nav-list ul li a{
     text-decoration: none;
     color: var(--gray);
-    
+    font-weight: 200;
     font-size: 1.2rem;
 }
 
@@ -98,7 +103,7 @@ header{
 }
 
 .btn span{
-   
+   font-weight: 500;
     font-size: 1.2rem;
     text-align: center;
     color: white;
@@ -108,7 +113,7 @@ header{
    padding-top: 40px;
 }
 .img-analytics img{
-    width: 100%;
+    width: 90vw;
 }
 
 
@@ -120,7 +125,7 @@ header{
     align-items: center;
 }
 .infos h1{
-    font-weight: bold;
+    font-weight: 800;
     font-size: 2.5rem;
     margin-bottom: 7px;
 }
@@ -129,6 +134,7 @@ header{
     color: var(--cinza);
     line-height: 30px;
     margin-bottom: 27px;
+    font-weight: 500;
 }
 
 .infos .learn{
@@ -144,6 +150,8 @@ header{
     align-self: flex-start;
 }
 
+
+/* --------------------------------------- */
 /* box informations */
 .box-container{
     display: flex;
@@ -164,13 +172,81 @@ header{
 }
 
 .box-infos .box{
-    border: 1px solid var(--cinza);
+    border: 1px solid var(--gray);
     margin-top: 19px;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 5px; 
+    
+}
+.box-infos .box h3{
+    margin: 5px 0px;
+}
+.box-infos .box img{
+    width: 40px;
+}
+.box p{
+    color: var(--gray);
+}
+
+
+/* --------------------------------------- */
+/* section comments twitter */
+.section-comments{
+    background-color:var(--background-section);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.box-comments{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 25px;
     border-radius: 5px;
 }
-
-.box p{
-    color: var(--cinza);
+.section-comments h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+.box-comments .perfil{
+    display: flex;
+    justify-content: space-between;
 }
 
+.perfil .user{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.perfil .user p{
+    
+}
+
+.box-comments .comment{
+    font-size: 15px;
+    padding: 20px;
+}
+.box-comments .comment p{
+    color: var(--gray);
+}
+
+.box-comments .like-date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.like-date .like{
+    display: flex;
+    gap: 3px;
+}
+.like span{
+    font-size: 17px;
+}
+
+
+/* --------------------------------------- */
+/* section plan twitter */
