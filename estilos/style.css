@@ -48,7 +48,7 @@ header{
 .logo p{
     
     font-weight:800;
-    font-size: 1.2rem;
+    font-size: 24px;
     color: var(--blue)
 }
 
@@ -79,13 +79,10 @@ header{
 .nav-list ul li a{
     text-decoration: none;
     color: var(--gray);
-    font-weight: 200;
+    font-weight: 400;
     font-size: 1.2rem;
 }
 
-.nav-list ul li a:hover{
-    
-}
 
 .btn{
     border-radius: 5px;
@@ -327,4 +324,24 @@ header{
 .plan-text p{
     font-size: 20px;
     color: var(--gray);
+}
+
+/* footer */
+
+footer{
+    background-color: var(--background-section);
+    margin-top: 40px;
+    padding: 40px 52px;
+}
+
+.twitter-info .twitter-terms{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.twitter-terms span{
+    font-size: 18px;
+    font-weight: 400;
 }
