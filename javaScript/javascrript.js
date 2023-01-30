@@ -21,12 +21,23 @@ menuIcon.addEventListener('click',()=>{
 like1.addEventListener('click',()=>{
     numberLike1.innerHTML = `${Number(numberLike1.textContent) +1}`
 })
+like1.addEventListener('touchstart',()=>{
+    numberLike1.innerHTML = `${Number(numberLike1.textContent) +1}`
+})
+
 
 like2.addEventListener('click',()=>{
     numberLike2.innerHTML = `${Number(numberLike2.textContent) +1}`
 })
+like2.addEventListener('touchstart',()=>{
+    numberLike2.innerHTML = `${Number(numberLike2.textContent) +1}`
+})
+
 
 like3.addEventListener('click',()=>{
+    numberLike3.innerHTML = `${Number(numberLike3.textContent) +1}`
+})
+like3.addEventListener('touchstart',()=>{
     numberLike3.innerHTML = `${Number(numberLike3.textContent) +1}`
 })
 
