@@ -9,7 +9,7 @@
     --backgound-header:#FFEFE8;
     --background-section: #D7F5F5;
     --border-plan: #DECB1E;
-
+    --color-button: #1DA1F2;
 }
 *{
     margin: 0;
@@ -86,7 +86,7 @@ header{
 
 .btn{
     border-radius: 5px;
-    background-color: var(--blue);
+    background-color: var(--color-button);
     width: 90%;
     height: 50px;
     display: flex;
