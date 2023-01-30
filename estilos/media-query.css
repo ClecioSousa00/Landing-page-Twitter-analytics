@@ -11,3 +11,103 @@
 /* version mobile first */
 
 /* */
+
+@media screen and (min-width: 768px) {
+    
+    .menu-icon{
+        display: none;
+    }
+    
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hidden{
+        display: block;
+    }
+
+    .btn{
+        width: 300px;
+    }
+
+    .nav-list{
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .nav-list ul{
+        display: flex;
+    }
+
+    .nav-list ul li a:hover{
+        color: var(--color-button);
+    }
+
+
+    .infos{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .img-analytics img{
+        width: 400px;
+    }
+    .title-infos{
+        width: 450px;
+    }
+
+    .learn-btn{
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .img-group img{
+        width: 300px;
+    }
+
+    /* --------------- */
+    /* section feactures */
+    .box-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .box{
+       width: 400px;
+    }
+
+    /* ----------------- */
+    /* section comments */
+    .box-comments{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .group-box{
+        display: flex;
+        gap: 15px;
+    }
+
+     /* ----------------- */
+    /* section plan twitter */
+
+    .plan{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan-twitter{
+        width:400px ;
+    }
+
+    /* ----------------- */
+    /* footer */
+
+    .twitter-info{
+        width: 80%;
+        margin: auto;
+        flex-direction: row;
+    }
+    
+}
