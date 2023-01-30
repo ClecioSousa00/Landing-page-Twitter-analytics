@@ -1,7 +1,7 @@
 /* version mobile first */
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap');
 
 :root{
     --blue:#3180F5;
@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 80px;
+    padding: 10px;
 
 }
 header{
@@ -106,21 +106,26 @@ header{
     color: white;
 }
 
-.img-analytics{
-   padding-top: 40px;
-}
-.img-analytics img{
-    width: 100%;
-}
+
 
 
 .infos{
     width: 80%;
-    margin-top: 37px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.img-analytics{
+   margin-bottom: 30px;
+}
+.img-analytics img{
+    width: 90vw;
+}
+
+
+
 .infos h1{
     font-weight: 800;
     font-size: 36px;
